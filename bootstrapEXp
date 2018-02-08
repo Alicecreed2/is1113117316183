@@ -1,0 +1,157 @@
+<! DOCTYPE html>
+
+<html lang="en>
+	<head>
+		<title>Employment History</title>
+		
+		<metea chraset="utf-8">
+		
+		<!--Bootstrap core CSS-->
+		<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		
+		<!--Custom styles for this template-->
+		<link rel"stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+	</head>
+    <body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+				data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only"> Toggle navigation </span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"> My cv </a>
+			</div>
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="bootstrappersonaldetails.html">Personal Details</a></li>
+						<li class="active"><a href="BootstrapEducation.html">Education</a></li>
+						<li class="active"><a href="bootstrapEmploymentHistory.html">Employment</a></li>
+						<li class="active"><a href="file:///H:/is1113%20project/Homepage.html">Home</a></li>
+					</ul>
+				</div>
+			</div>	
+		</nav>
+		
+		<br /><br />
+		
+		<!--Main jumbotron message -->
+		<div class="jumbotron">
+			<div class="container">
+				<h2>Employment History</h2>
+	         </div>
+		</div>
+
+				<br /><hr>
+				<span style="float: left;"><h3><strong>Deputy Store Manager</strong></h3></span>
+				<span style="float: right;"><h3>September 2006 - October 2014</h3></span>
+					
+				<div style="margin-top: 85px;">
+					<h4><em>Halfords, Cork ,Duties:</em></h4>
+					<ul>
+						<li>supporting the store manager in the day to day running of the store. Communicating targets and tasks at shift changes so as to provide a high level of customer service.</li>
+                <li>Shop floor:  Responsible for day to day running of the shop floor in regards for merchandising, promotional changes ,pricing ,hygiene and service standards.</li>
+                <li>Managing people:  Responsible for thirty staff members. I also deal with all H.R issues including development plans for staff through training and people management.</li>
+				<li>Trading Account:  working with the store manager and department heads to keep controllable erosions in line in regard to payroll budgets, breakages, refunds, security and telephone.</li>
+				<li>Back office:  Responsible for daily till and safe reconciliation's refund audits and all banking.</li>
+                <li>Achievements:  Full responsibility for delivering the last 3 stock takes within the store, from planning to implementation and investigation.  I have filled the roll as area stock take invigilator for the last two years covering five stores.</li>
+					</ul>
+				</div>
+				
+				<br /><hr>
+			<span style="float: left;"><h3><strong>Store Manager</strong></h3></span>
+				<span style="float: right;"><h3>July 2005 - September 2006</h3></span>
+					
+				<div style="margin-top: 85px;">
+					<h4><em>Grandons Fine Food Fair, Glanmire</em></h4>
+					<ul>
+						<li>Sales, increased sales by 5% after a period of 6 months by correcting errors in margins and pricing with in the store as well as relaying the store to be more shopper friendly.</li>
+				<li>Stock control/Variation control:  improved the levels of stock holding and wastage within the store with the introduction of stock cards and correct staff training in regards to stock management.</li>
+				<li>Managing people:  Responsible for staff structure on a weekly basis. As well as all personnel management with regard to the store. I trained all staff in customer service. I provided training for key staff in stock and ordering as well as goods inwards and outwards. I identified 3 members of staff for key holding/supervisory duties who have gone on to careers in retail management.</li>
+				<li>Hygiene:  Full working knowledge of H.A.C.C.P systems with regard to retail.</li>
+				<li>E.P.O.S:  I was responsible for all E.P.O.S systems within the store. I have a full working knowledge of E.P.O.S systems.</li>
+				<li>Banking:  I was responsible for all cashing up and banking procedures as well as all deposits at the bank on a bi weekly basis.</li>
+					</ul>
+				</div>
+				
+				<br /><hr>
+			<span style="float: left;"><h3><strong>Store Manager</strong></h3></span>
+				<span style="float: right;"><h3>July 2005 - September 2006</h3></span>
+				
+					<div style="margin-top: 85px;">
+					<h4><em>Fine Food Fair, Douglas, Cork</em></h4>
+					<ul>
+						<li>Duties:  To drive sales within the store across all departments.</li>
+				<li>Sales:  To obtain the correct mix/range of stock across all departments from liquor to fresh to grocery.</li>
+				<li>Stock control/Variation control:  improving and maintaining stock and ordering systems as well as security systems within the store.</li>
+				<li>Managing people:  Responsible for staff structures on a weekly basis. Budgets where given and rosters had to be compiled within budget constraints. I have excellent communication and people management skills.</li>
+				<li>Achievements:  Through successful management of our Deli, Hot food, Avanti pizza and in store bakery my Deli team and I won the cuisine de France food award for convenience stores up to 5,000 square feet.</li>
+					</ul>
+				</div>
+				
+				<br /><hr>
+			<span style="float: left;"><h3><strong>Assistant Manager</strong></h3></span>
+				<span style="float: right;"><h3>July 2002 - July 2005</h3></span>
+				
+					<div style="margin-top: 85px;">
+					<h4><em>Fine Food Fair, Douglas, Cork</em></h4>
+					<ul>
+						<li>Devised layouts for the shop floor departments.</li>
+				<li>Devised layouts for the frozen food departments.</li>
+				<li>I was involved in the planning and implementation of the delicatessen area.
+				<li>I was involved in the recruitment and training of all staff.</li>     
+				<li>Fine Food Fair was a 5,000 square foot convenience store located on the Douglas Road. It was their flag ship store used to sell the Fine Food Fair brand franchise to their existing and new customer base at the time. The management team had the full responsibility of designing and laying out the store.</li>
+					</ul>
+				</div>
+				
+				<br /><hr>
+			<span style="float: left;"><h3><strong>Trainee Manager</strong></h3></span>
+				<span style="float: right;"><h3>September 1997 - July 2002</h3></span>
+				
+					<div style="margin-top: 85px;">
+					<h4><em>Dunnes Stores, Munster</em></h4>
+					<ul>
+						<li>Duties: Day to day operation of shop floor departments.</li>
+				<li>Customer service.</li>
+				<li>Stock and ordering control.</li>
+				<li>Goods inwards/outwards.</li>
+				<li>Stockroom control.</li>
+				<li>H.R Management.</li>
+				<li>Staff training.</li>
+				<li>E.P.O.S.</LI>
+				<li>Hygiene systems in regard to food retail, H.A.C.C.P.</li>
+					</ul>
+				</div>
+				
+				<br /><hr>
+			<span style="float: left;"><h3><strong>Sales Adviser</strong></h3></span>
+				<span style="float: right;"><h3>September 1994 - September 1997</h3></span>
+				
+					<div style="margin-top: 85px;">
+					<h4><em>Dunnes Stores, Bishopstown</em></h4>
+					<ul>
+						<li>Customer service.</li>
+				<li>Tasks as requested by management.</li>
+					</ul>
+				
+				
+				<br><br><br>
+      <hr>
+
+      <footer>
+        <p>&copy; Robert Lester  2015</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+		
+		</body>
+</html>
