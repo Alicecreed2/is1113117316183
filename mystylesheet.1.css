@@ -42,21 +42,3 @@ color:white;
  background:red;
 padding:2%;
 }
-
-	Footer
-		{
-		position:absolute;
-		height:10%;
-		top:98%;
-		left:0%;
-		width:100%;
-		border-top:1px solid #990000;
-		background:#554E4D;
-		z-index:90;
-		color:#000000;
-		text-decoration:none;
-		text-align: center;
-		vertical-align: middle;
-		padding-top:5px;
-		font-family:Century Gothic;
-		}
