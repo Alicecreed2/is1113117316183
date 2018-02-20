@@ -29,15 +29,22 @@ padding:2%;
 }
 
 #section1{
-    background-color : rgb(238, 0, 90);
+    background: url("https://lonelyplanetwp.imgix.net/2017/09/dubai-marina-skyline-2c8f1708f2a1-1024x684.jpg?crop=entropy&fit=crop&h=421&sharp=10&vib=20&w=748") no-repeat center;
+    background-size: cover; 
+    font-size:30px;
+    
 }
 
 #section2{
-    background-color : rgb(44, 62, 80);
+    background: url("https://www.city-journal.org/sites/cj/files/New-York.jpg") no-repeat center;
+    background-size: cover;
+    font-size:30px;
 }
 
-#section{
-    background-color : rgb(51, 153, 204);
+#section3{
+    background: url("https://hotels.ng/guides/wp-content/uploads/2017/07/australia.jpg") no-repeat center;
+    background-size: cover;
+    font-size:30px;
 }
 
 .section{
