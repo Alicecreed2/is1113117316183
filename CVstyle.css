@@ -4,11 +4,11 @@
 
 
 html, body{
- background: url("http://www.qygjxz.com/data/out/153/4460228-macbook-wallpaper.jpg");
+ background: url("http://markinternational.info/data/out/122/219665985-mac-os-wallpapers.jpg") no-repeat center fixed;
  background-size: cover; 
 }
 
-.Mainheading{
+.mainheading{
 	text-align:center;
 	color:Blue;
 }
@@ -43,18 +43,8 @@ background:Blue;
 padding:2%;
 }
 
-
-img{
-	border-radius: 30%;
-	height:20;
-	width:25;
-	text-align: center;
-}
-
-
-
 h2 { 
 	text-align: center;
-	font-size:15px;
-	color: #050003;
+	font-size:40px;
+	color:#f442f1;
 }
