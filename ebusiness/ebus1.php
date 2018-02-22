@@ -7,9 +7,11 @@
         <script src="https://ajax.googleapps.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
     </head>
-    <h4>select a product</h4>
+   
     
     <br/>
+    <body>
+         <h4>select a product</h4>
     
     <form method= "POST" action="ebus2.php">
     
@@ -37,8 +39,11 @@
     <br/>
     
     <label for ="total">
-        subtotal
-    <input type="text" id="total" name="product" value="0.00" readonly/>
+        total
+    <input type="text" id="total" name="total" value="0.00" readonly/>
+    </label>
+    
+    </br>
     
     <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
     

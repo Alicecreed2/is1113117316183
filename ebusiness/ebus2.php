@@ -29,7 +29,7 @@ session_start();
         <h4>Please enter your payment details</h4>
 
         
-
+</br>
         
 
             <form action="Ebus3.php" method="POST">
