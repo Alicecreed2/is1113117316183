@@ -9,8 +9,10 @@ html, body{
  
  
  
- 
 }
+
+
+
 
 
 .Mainheading{
@@ -50,13 +52,18 @@ ul li{
   font-size:22px;
   
   
+  
 }
+
+
 
 ul li a:hover{
 color:white;
 background:Blue;
 padding:2%;
 }
+
+
 
 
 
@@ -69,6 +76,8 @@ img{
 	z-index:1;
 	
 }
+
+
 
 
 
@@ -98,12 +107,24 @@ h2 {
 }
 
 
+
+
+
  .logo-pic{ 
   
   position: absolute;
   left:75%;
-  top:77%;
+  top:90%;
   z-index:7;
   mix-blend-mode: multiply;
   
+  
  } 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
