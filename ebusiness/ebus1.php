@@ -109,14 +109,14 @@ padding:2%;
     left: 43%;
 }
 
-.add.btn{
+.add_btn{
     position: absolute;
     top: 71%;
     left: 50%;
 }
 
-.add.btn.style{
-    background-color: #4CAF50;
+.add_btn_style{
+    background-color: #2bcf5f;
     border: none;
     color: white;
     text-align: center;
@@ -126,7 +126,7 @@ padding:2%;
     font-size: 90%;
 }
 
-.add.btn.style:hover{
+.add_btn_style:hover{
     cursor: pointer;
 }
 
@@ -141,12 +141,12 @@ padding:2%;
  
 }
 
-.calc.btn{
+.calc_btn{
     position: absolute;
     top: 75%;
     left: 50%;
     
-    background-color: #ffff00;
+    background-color: #fcca3f;
     border: none;
     color: #000;
     text-align: center;
@@ -156,14 +156,14 @@ padding:2%;
     font-size: 95%;
 }
 
-.calc.btn:hover{
+.calc_btn:hover{
     cursor: pointer;
 }
 
-.clear.btn{
+.clear_btn{
     position: absolute;
-    top: 75%;
-    left: 5%;
+    top: 80%;
+    left: 50%;
     
     text-decoration: none;
     color: red;
@@ -274,19 +274,19 @@ html, body{
       
             <br>
             
-            <div class="add.btn">   
-              <button class="add.btn.style" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            <div class="add_btn">   
+              <button class="add_btn_style" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             </div>  
               
           </form>
             
           <!-- button for calculating price of the selected option -->    
-          <button class="calc.btn" onClick="calcSub()">Calculate Cost</button>
+          <button class="calc_btn" onClick="calcSub()">Calculate Cost</button>
              
           <br>
             
           <!-- button for clearing options -->    
-          <button><a class="clear.btn" href="ebus1.php">Clear Choice</a></button>
+          <button><a class="clear_btn" href="ebus1.php">Clear Choice</a></button>
           
         </div>
         

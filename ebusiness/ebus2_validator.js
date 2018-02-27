@@ -4,7 +4,7 @@ function validateName(){
     
     var name;
     
-    name = document.getElementById("user.name").value;
+    name = document.getElementById("user_name").value;
 
     if (name == ""){
         alert("Please enter a name.");
@@ -22,7 +22,7 @@ function validateEmail(){
     
     var email;
     
-    email = document.getElementById("user.email").value;
+    email = document.getElementById("user_email").value;
     
     if (email == ""){
         alert("please enter an email.")
@@ -59,10 +59,10 @@ function validateInputEmail(email) {
     
 function enablebtnPurchase(){
     
-    $('#btn.Purchase').prop('disabled', false);
+    $('#btn_Purchase').prop('disabled', false);
     }
     
 function disablebtnPurchase() {
     
-    $('#btn.Purchase').prop('disabled', true);
+    $('#btn_Purchase').prop('disabled', true);
     }

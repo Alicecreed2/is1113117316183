@@ -56,13 +56,13 @@ html, body{
  .buttonhover {
   display: inline-block ;
   border-radius: 12px;
-  background-color:#0e1d38;
+  background-color:#362bcf;
   border: none;
   color: #ffffff;
   text-align: center;
-  font-size: 28px;
+  font-size: 20px;
   padding:20px;
-  width:200px;
+  width:150px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -72,19 +72,30 @@ html, body{
  
  .button {
  position:absolute;
- bottom:1%;
- left:50%;
+ bottom:30%;
+ left:40%;
  
 }
 .logo {
  position:absolute;
- top:15%;
+ top:10%;
  left:000%;
  height:25%;
  width:30%;
  mix-blend-mode: multiply;
  
  
+}
+
+.writing{  
+    
+    font-size:30px;
+    color: black;
+    
+}
+h1 {
+    font-size:40px;
+    color:white;
 }
 
         </style>
@@ -108,34 +119,45 @@ html, body{
         </div>
         
         <center>
-        <h4>Purchase Receipt</h4>
-        
+        <h1>Purchase Receipt</h1>
+        <div class="writing">
         <?php  
         // Set session variables
-          $_SESSION["user.name"] = $_POST["user.name"];
-          $_SESSION["user.email"] = $_POST["user.email"];
+          $_SESSION["user_name"] = $_POST["user_name"];
+          $_SESSION["user_email"] = $_POST["user_email"];
+           $_SESSION["user_no"] = $_POST["user_no"];
         ?>
         
         <p>
             <?php
             // Echo session variables that were set on the previous pages
-            echo "Name: " . $_SESSION["user.name"] . ".";
+            echo "Name: " . $_SESSION["user_name"] . ".";
             ?>
         </p>
         
         <p>
             <?php
             // Echo session variables that were set on the previous pages
-            echo "Email: " . $_SESSION["user.email"] . ".";
+            echo "Email: " . $_SESSION["user_email"] . ".";
             ?>
         </p>
+          <p>
+            <?php
+            // Echo session variables that were set on the previous pages
+            echo "Number: " . $_SESSION["user_no"] . ".";
+            ?>
+        </p>
+        
         
         <p>
             <?php
             // Echo session variables that were set on the previous pages
-            echo "Total: " . $_SESSION["total"] . ".";
+            echo "Total: " "$" . $_SESSION["total"] . ".";
             ?>
         </p>
+        
+        
+        </div>
         
          <div class="button">
    <a href="..Shop/home.html" class="buttonhover"> Return to Shop Homepage</a>

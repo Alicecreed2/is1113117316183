@@ -51,6 +51,10 @@ background:Blue;
 padding:2%;
 }
 
+h4 {
+    font-size:40px;
+    color:white;
+}
             
             /* Ebusiness2 */
 .ebus2.heading{
@@ -60,6 +64,7 @@ padding:2%;
     font-size:40px;
     color:white;
 }
+
 
 .lbl.name{
     position: absolute;
@@ -79,12 +84,12 @@ padding:2%;
     left: 43%;
 }
 
-.btn.proceed{
+.btn_proceed{
     position: absolute;
-    top: 35%;
+    top: 65%;
     left: 43%;
     
-    background-color: #4CAF50;
+    background-color: #e81034;
     border: none;
     color: white;
     text-align: center;
@@ -94,16 +99,16 @@ padding:2%;
     font-size: 90%;
 }
 
-.btn.proceed:hover{
+.btn_proceed:hover{
     cursor: pointer;
 }
 
-.btn.validate{
+.btn_validate{
     position: absolute;
-    top: 40%;
+    top: 58%;
     left: 43%;
     
-    background-color: #008CBA;
+    background-color: #d60b0b;
     border: none;
     color: white;
     text-align: center;
@@ -126,13 +131,19 @@ html, body{
 }
 .logo {
  position:absolute;
- top:15%;
+ top:10%;
  left:000%;
  height:25%;
  width:30%;
  mix-blend-mode: multiply;
  
  
+}
+
+.writing {
+    font-size:30px;
+    color: black;
+    
 }
 
 
@@ -157,36 +168,46 @@ html, body{
         </div>
         <center>
         <h4 class="ebus2.heading">Please enter payment details</h4>
+        <div class="writing">
         
         <form action="ebus3.php" method="POST">
             
-            <label for="user.name" class="lbl.name">
-                Name
-                <input type="name" id="user.name" name="user.name" placeholder="Enter Your Name">
+            <label for="user_name" class="lbl.name">
+                Name:
+                <input type="name" id="user_name" name="user_name" placeholder="Enter Your Name">
             </label>
             
-            <br>
+        <br/><br/>
             
-            <label for="user.email" class="lbl.email">
-                Email address
-                <input type="email" id="user.email" name="user.email" placeholder="eg123@gmail.com">
+            <label for="user_email" class="lbl.email">
+                Email address:
+                <input type="email" id="user_email" name="user_email" placeholder="eg123@gmail.com">
             </label>
+            </br>
+            </br>
             
-            <br>
+                        <label for="user_no" class="lbl.no">
+                Telephone number:
+                <input type="number" id="user_no" name="user_no" placeholder="0000000000">
+            </label>
+        
+            <br/>
+            <br/>
 
             <label for="user.pin" class="lbl.pin">
                 PIN
                 <input type="pin" id="user.pin" name="user.pin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
+                 </div>
                 <br>
                 (Numbers only.)
             </label>
-          
+        
             
             <br>
             <br>
+            <button class="btn_validate" onClick="validateName()">Validate</button>
+            <button class="btn_proceed" type="submit" id="btn_Purchase" disabled>Proceed with  your Purchase</button>
             
-            <button class="btn.proceed" type="submit" id="btn.Purchase" disabled>Proceed with  your Purchase</button>
-            <button class="btn.validate" onClick="validateName()">Validate</button>
             
       
         </center>
@@ -199,8 +220,8 @@ html, body{
         
         // Set session variables
           $_SESSION["total"] = $_POST["total"];
-         $_SESSION["user.email"] = $_POST["user.email"];
-        $_SESSION["user.name"] = $_POST["user.name"];
+         $_SESSION["user_email"] = $_POST["user_email"];
+        $_SESSION["user_name"] = $_POST["user_name"];
          
          
           
