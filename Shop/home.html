@@ -2,13 +2,190 @@
 <html>
 	<head>
 	<title>Shop home</title>
-	  <link href="shop.css" rel="stylesheet" type="text\css">
+	  <link href="../shop.css" rel="stylesheet" type="text\css">
+	  
+	  <style>
+	   
+	   *{
+ margin:0;
+}
+
+
+ul li a{
+ text-decoration:none;
+ color:black;
+ 
+ 
+}
+
+ul{
+ height:7%;
+ width:100%; 
+ background:#97d6f7;
+ text-align: center;
+ 
+
+}
+
+
+ul li{
+  list-style:none;
+  display:inline;
+  position:relative;
+  margin-left:110px;
+  transform:translate(20%,30%);
+  font-size:22px;
+  top:20%;
+  
+  
+}
+
+
+
+
+ul li a:hover{
+color:white;
+background:Blue;
+padding:2%;
+}
+
+.hprod {
+  position:absolute;
+ top:40%;
+ left:40%;
+ font-size:30px;
+}
+.Footer{
+     position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+ 
+.cloud9{
+ position:absolute;
+ top:50%;
+ left:15%;
+}
+
+.sf {
+  position:absolute;
+ top:50%;
+ left:67%;
+}
+
+
+.am{
+  position:absolute;
+ top:80%;
+ left:67%;
+ 
+} 
+
+.gmail {
+ position:absolute;
+ top:80%;
+left:1%;
+padding-right: 450px;
+}
+
+
+
+
+.head {
+ font:verdana;
+ color: white;
+ text-align:center;
+    
+}
+
+.button {
+ position:absolute;
+ bottom:5%;
+ left:45%;
+ 
+}
+
+.logo {
+ position:absolute;
+ top:15%;
+ left:45%;
+ height:25%;
+ width:30%;
+ mix-blend-mode: multiply;
+ 
+ 
+}
+
+
+
+
+
+html, body{
+ width:100%;
+ height:100%;
+ 
+}
+
+
+
+ 
+ 
+ /* hover button */
+ 
+ .buttonhover {
+  display: inline-block ;
+  border-radius: 12px;
+  background-color:#0e1d38;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding:20px;
+  width:200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+  
+ }
+ 
+ .products{
+
+ font:verdana;
+ color: white;
+ text-align:center;
+ 
+ display: block;
+  
+ }
+ 
+ 
+.Footer {
+ position: absolute;
+ bottom:0%;
+ text-align:center;
+ color: black;
+ padding-left:600px;
+}
+
+
+.image img{
+ height:100%;
+ width:100%;
+}
+
+	  </style>
          <ul>
          
-              <li><a href = "Shop/home.html">About</a></li>
+            <li><a href = "../homepage.html">Home</a></li>
+            <li><a href = "CV/cv_page1.html">Curriculum Vitae </a></li>
             <li><a href = "intrests./interests.html">Interests</a></li>
             <li><a href = "ebusiness/ebus1.php">Shop</a></li>
-             <li><a href = "https://github.com/Alicecreed2/is1113117316183/graphs/commit-activity">GitHub</a></li>
+            <li><a href = "https://github.com/Alicecreed2/is1113117316183/graphs/commit-activity">GitHub</a></li>
             
         </ul>  
    
@@ -16,18 +193,80 @@
    
    </head>
    <body>
+        
+        <div class="logo">
+        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/417/595052417_77b8bd8a-0a9b-4a7e-8cfa-b7de2e438b21.png?cb=1519740487" height="150px" width="300px">
+        </div>
+        
+        
+             <div class="image">
+              <img src="https://images.unsplash.com/photo-1464600923926-4ff72f9505f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=865f5af0ad4d68038d54b1043886b087&auto=format&fit=crop&w=750&q=80">
+             </div>
+       <div class="products">
+        <div class="hprod">
+       <h1> Our products:</h1>
+       </div>
+     
+       <div class="cloud9">
+         <h2><strong>Cloud9:</strong> </h2>
+         <img src="https://static.c9.io/nc-3.1.4109-2ffb85e2-wf/static/plugins/c9.profile/static/images/cloud9-logo.svg" width=10% height=10% >
+         <p>Cloud9 IDE is an online integrated development environment,<br/> It enables developers to get started with coding immediately with<br/> pre-configured workspaces,  collaborate with their peers with collaborative<br/> codingfeatures, and web development features like live preview and browser <br/> compatibility testing. </p>
+       </div> 
+       <div class="sf">
+       <h2><strong>Sales Force:</strong></h2>
+       <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Salesforce_logo.svg/1200px-Salesforce_logo.svg.png" width=10% height=10% > 
+       <p>Salesforce is the world's #1 Customer Relationship Management<br/>  platform. Our cloud-based applications for sales,service,<br/>  marketing, and more don't require IT experts to set up or manage<br/> - simply log in and start connecting to customers in a whole new way.</p>
+       </div>
+       <div class="am">
+       <h2><strong>Amazon:</strong></h2>
+       <img src="http://g-ec2.images-amazon.com/images/G/01/social/api-share/amazon_logo_500500.png" width=10% height=10%>
+       <p>Amazon is the world's largest online retailer and a prominent<br/>  cloud services provider. Amazon is headquartered in Seattle,<br/>  Washington. The company has individual websites, software<br/> development centers, customer service centers and fulfillment centers in<br/>  many locations around the world.</p>
+       </div>
+       <div class ="gmail">
+       <h2><strong>Gmail:</strong></h2>
+       <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gmail_logo.max-2800x2800.png" width=3% height=3% >
+       <p>Short for Google Mail, Gmail is a free service provided by Google<br/>  that enables usersto send and receive e-mail over the Internet.<br/>  What helps make Gmail unique is the ability to store<br/> several gigabytes of e-mail data, which means most users don't have to worry<br/> about not getting e-mail due to exceeding their available storage. </p>
+       <div/>
+     
+      <div/>
+ 
        
-       <h1 class="head">Welcome to Afaxi</h1>
-       
-       
-       
+
+ 
    
-   <br/> 
+  
+   <br/>
    <center>
-   <button><a href="../homepage.html"></a>Return to Homepage</button>
-           <div id="Footer">
-	<p>Copyright &COPY; Alice Creed, 2018.  All Rights Reserved. </center></p>
+    <div class="button">
+   <a href="../ebusiness/ebus1.php" class="buttonhover"> Make a Purchase</a>
    </div>
+
+   
+   
+   
+   <br/><br/><br/><br/><br/><br/><br/>
+  
+            <div id="Footer">
+	<center>
+	    <p>
+    <a href="https://dashboard.heroku.com/apps/is1113-117316183">
+    <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/04/1461122387heroku-logo.jpg" height="50px" width="50px">
+    
+    <a href="https://www.linkedin.com/feed/">
+    <img src="https://pbs.twimg.com/profile_images/614583061448036352/CBpFkPaz_400x400.png" height="50px" width="50px">
+   
+   <a href="https://twitter.com/?lang=en">
+    <img src="https://pbs.twimg.com/profile_images/875087697177567232/Qfy0kRIP.jpg" height="50px" width="50px">
+    
+    <a href="https://www.facebook.com/">
+    <img src="http://onlinespor1.tv/wp-content/uploads/2017/10/fb_icon_325x325.png" height="50px" width="50px"></a>
+    </p>
+	    <p>Copyright &COPY; Alice Creed, 2018.  All Rights Reserved. </center></p>
+   </div>
+   </center>
+
+   
+   
     </body>
    
    </html>
