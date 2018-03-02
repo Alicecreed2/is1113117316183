@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
+ 
+  <!-- styling page --> 
   <style> 
   body{ 
     background: url("https://images.unsplash.com/photo-1504542227056-9178533a9175?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bf72fa0e3ea90cf625a980d0d0548a96&auto=format&fit=crop&w=967&q=80") no-repeat center;
@@ -17,7 +18,7 @@
 
 }
 
-
+/* nav bar */
 ul li a{
  text-decoration:none;
  color:black;
@@ -64,6 +65,7 @@ padding:2%;
     text-align: center;
 }
 
+/* page content */
 
 
 #section1{
@@ -96,11 +98,44 @@ padding:2%;
     color: black;
 }
 
-.vid{
-    z-index:7;
+.top_btn{
+    position: absolute;
+    
+    left: 42%;
+    
+    background-color: #0450f2;
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 3px;
+    font-size: 95%;
 }
 
+.top_btn:hover{
+    cursor: pointer;
+}
+ .next_btn{
+    position: absolute;
+    
+    left: 50%;
+    
+    background-color: #f7ee4a;
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 3px;
+    font-size: 95%;
+}
+
+.next_btn:hover{
+    cursor: pointer;
+}
   </style>
+     <!-- nav bar -->
   
    <ul>
          
@@ -203,7 +238,11 @@ padding:2%;
   </div>
 </div>
 <center>
-  <a href="../homepage.html" class="btn btn-success">Home</a>   <a href="travel.html" class="btn btn-success">Next</a> 
+  <button><a class="top_btn" href="../homepage.html">Home</a></button>   <button><a class="next_btn" href="travel.html">Travel</a></button> 
+  <br/><br/>
+  
+  <!-- page footer -->
+  
     <div id="Footer">
 	<center>
 	    <p>

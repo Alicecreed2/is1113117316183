@@ -8,9 +8,11 @@
         <script type="text/javascript" src="cost_calc.js"></script>
         
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
+        
+         <!-- styling page -->
         <style>
-          
-          ul li a{
+        /* nav bar */
+ul li a{
  text-decoration:none;
  color:black;
  
@@ -49,6 +51,7 @@ padding:2%;
 
 
 /* Ebusiness1 */
+
 .ebuscontent{
     position: absolute;
     height: 100%;
@@ -111,7 +114,7 @@ padding:2%;
 
 .add_btn{
     position: absolute;
-    top: 71%;
+    top: 77%;
     left: 50%;
 }
 
@@ -143,7 +146,7 @@ padding:2%;
 
 .calc_btn{
     position: absolute;
-    top: 75%;
+    top: 71%;
     left: 50%;
     
     background-color: #fcca3f;
@@ -162,7 +165,7 @@ padding:2%;
 
 .clear_btn{
     position: absolute;
-    top: 80%;
+    top: 83%;
     left: 50%;
     
     text-decoration: none;
@@ -170,6 +173,25 @@ padding:2%;
     padding: 4px 4px;
     border: solid 1px red;
     border-radius: 3px;
+}
+ 
+ .home_btn{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    
+    background-color: #0450f2;
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 3px;
+    font-size: 95%;
+}
+
+.home_btn:hover{
+    cursor: pointer;
 }
 
 html, body{
@@ -179,19 +201,20 @@ html, body{
 }
  
 
+
+
         </style>
-            
+               <!-- nav bar -->
          <ul>
          
-            <li><a href = "../homepage.html">Home</a></li>
-            <li><a href = "CV/cv_page1.html">Curriculum Vitae </a></li>
+              <li><a href = "../homepage.html">Home</a></li>
+             <li><a href = "CV/cv_page1.html">Curriculum Vitae </a></li>
             <li><a href = "intrests./interests.html">Interests</a></li>
             <li><a href = "Shop/home.html">Shop</a></li>
-            <li><a href = "https://github.com/Alicecreed2/is1113117316183/graphs/commit-activity">GitHub</a></li>
-            
-            
-        </ul> 
-        
+             <li><a href = "https://github.com/Alicecreed2/is1113117316183/graphs/commit-activity">GitHub</a></li>
+        </ul>  
+
+   
 
     </head>
     
@@ -289,7 +312,8 @@ html, body{
           <button><a class="clear_btn" href="ebus1.php">Clear Choice</a></button>
           
         </div>
-        
+     
+<button><a class="home_btn" href="../Shop/home.html">Cancel purchase.</a></button>   
     </body>
     
 </html>

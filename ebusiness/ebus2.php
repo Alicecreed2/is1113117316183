@@ -12,9 +12,10 @@ session_start()
         <script type="text/javascript" src="ebus2_validator.js"></script>
         
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
-        
+       
+        <!-- styling page --> 
         <style>
-        
+        /* nav bar */
         ul li a{
  text-decoration:none;
  color:black;
@@ -57,6 +58,7 @@ h4 {
 }
             
             /* Ebusiness2 */
+            
 .ebus2.heading{
     position: absolute;
     top: 10%;
@@ -86,10 +88,10 @@ h4 {
 
 .btn_proceed{
     position: absolute;
-    top: 65%;
+    top: 85%;
     left: 43%;
     
-    background-color: #e81034;
+    background-color: #0fc41e;
     border: none;
     color: white;
     text-align: center;
@@ -105,7 +107,7 @@ h4 {
 
 .btn_validate{
     position: absolute;
-    top: 58%;
+    top: 80%;
     left: 43%;
     
     background-color: #d60b0b;
@@ -122,6 +124,24 @@ h4 {
     cursor: pointer;
 }
 
+.home_btn{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    
+    background-color: #0450f2;
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 3px;
+    font-size: 95%;
+}
+
+.home_btn:hover{
+    cursor: pointer;
+}
 html, body{
  background: url("https://images.unsplash.com/photo-1464600923926-4ff72f9505f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=865f5af0ad4d68038d54b1043886b087&auto=format&fit=crop&w=750&q=80") no-repeat center;
  background-size: cover; 
@@ -147,7 +167,10 @@ html, body{
 }
 
 
+
+
         </style>
+           <!-- nav bar -->
         <ul>
          
             <li><a href = "../homepage.html">Home</a></li>
@@ -158,7 +181,6 @@ html, body{
             
             
         </ul> 
-        
         
     </head>
     
@@ -188,7 +210,7 @@ html, body{
             
                         <label for="user_no" class="lbl.no">
                 Telephone number:
-                <input type="number" id="user_no" name="user_no" placeholder="0000000000">
+                <input type="number" id="user_no" name="user_no" placeholder="000 0000000">
             </label>
         
             <br/>
@@ -226,7 +248,6 @@ html, body{
          
           
         ?>
-        
-        
+     <button><a class="home_btn" href="../Shop/home.html">Cancel purchase.</a></button>
     </body>
 </html>

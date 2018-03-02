@@ -10,6 +10,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
    
+    <!-- styling page -->
        <style>
        	
        	*{
@@ -24,7 +25,7 @@ html, body{
 }
 
 
-
+/* nav bar */
 ul li a{
  text-decoration:none;
  color:black;
@@ -59,14 +60,14 @@ padding:2%;
 
 }
 
-
+/* for images */
 
 img{
 	height:20;
 	width:25;
 	text-align: center;
 	border-radius:50%;
-	  mix-blend-mode: multiply;
+	mix-blend-mode: multiply;
 }
 
 
@@ -80,8 +81,45 @@ img{
     text-align: center;
 }
 
+ .top_btn{
+    position: absolute;
+    
+    left: 42%;
+    
+    background-color: #0450f2;
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 3px;
+    font-size: 95%;
+}
+
+.top_btn:hover{
+    cursor: pointer;
+}
+ .next_btn{
+    position: absolute;
+    
+    left: 50%;
+    
+    background-color: #f7ee4a;
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 3px;
+    font-size: 95%;
+}
+
+.next_btn:hover{
+    cursor: pointer;
+}
 
        </style>
+          <!-- nav bar -->
          <ul>
          
               <li><a href = "../homepage.html">Home</a></li>
@@ -142,11 +180,13 @@ img{
 			
 
 
-	<a href="#top" class="btn btn-success">Back to Top</a>
+    	<button><a class="top_btn" href="#top">Back to top</a></button>
 
-	    <a href="cv_page2.html" class="btn btn-success">Education</a>
-	    </div>	
+	    <button><a class="next_btn" href="../CV/cv_page2.html">Education</a></button>
+	    
+	  <br/><br/><br/><br/>
 	  
+	  <!-- page footer -->
 	  
 	      <div id="Footer">
 	<center>

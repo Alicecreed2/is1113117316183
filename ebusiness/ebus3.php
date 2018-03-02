@@ -6,7 +6,9 @@ session_start()
 <html>
     <head>
         <title>Receipt</title>
+         <!-- styling page -->
         <style>
+        /* nav bar */
                       ul li a{
  text-decoration:none;
  color:black;
@@ -72,7 +74,7 @@ html, body{
  
  .button {
  position:absolute;
- bottom:30%;
+ bottom:25%;
  left:40%;
  
 }
@@ -98,7 +100,11 @@ h1 {
     color:white;
 }
 
+
+
+
         </style>
+           <!-- nav bar -->
          <ul>
          
             <li><a href = "../homepage.html">Home</a></li>
@@ -141,6 +147,7 @@ h1 {
             echo "Email: " . $_SESSION["user_email"] . ".";
             ?>
         </p>
+        
           <p>
             <?php
             // Echo session variables that were set on the previous pages
@@ -152,7 +159,7 @@ h1 {
         <p>
             <?php
             // Echo session variables that were set on the previous pages
-            echo "Total: " "$" . $_SESSION["total"] . ".";
+            echo "Total: $ " . $_SESSION["total"] . ".";
             ?>
         </p>
         
@@ -160,10 +167,10 @@ h1 {
         </div>
         
          <div class="button">
-   <a href="..Shop/home.html" class="buttonhover"> Return to Shop Homepage</a>
+      <a href="../Shop/home.html" class="buttonhover"> Return to Shop Homepage</a>
    </div>
         </center>
         
-        
+    
     </body>
 </html>

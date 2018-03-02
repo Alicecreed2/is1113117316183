@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="../int_pages.css" type="text/css" />
         
     
+    
          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -23,8 +24,9 @@
 });
 </script>
 
+ <!-- styling page -->
 <style>
-  
+  /* nav bar */
 ul li a{
  text-decoration:none;
  color:black;
@@ -71,7 +73,26 @@ padding:2%;
     text-align: center;
 }
 
+ .top_btn{
+    position: absolute;
+    
+    left: 42%;
+    
+    background-color: #0450f2;
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 3px;
+    font-size: 95%;
+}
 
+.top_btn:hover{
+    cursor: pointer;
+}
+
+/* page content */
 
 #section1{
     background: url("https://images.unsplash.com/photo-1455735459330-969b65c65b1c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f7a67f06c27804552d6bbd40afe0961e&auto=format&fit=crop&w=1504&q=80") no-repeat center;
@@ -107,7 +128,7 @@ padding:2%;
     z-index:7;
 }
 </style>
-      
+         <!-- nav bar -->
          <ul>
          
              <li><a href = "../homepage.html">Home</a></li>
@@ -161,10 +182,13 @@ On-site datacenters typically require a lot of “racking and stacking”— Clo
 	    <h4> 			    Since beginning my studies in Business Information Systems here at UCC, I have required a great intrest in the Cloud Services. </h4>
 	     
 	    
-	    <a href="../homepage.html" class="btn btn-success">Home</a>
+	     <button><a class="top_btn" href="../homepage.html">Home</a></button>
 
 	</div>
 </div>
+
+<!-- page footer -->
+
    <div id="Footer">
 	<center>
 	    <p>
