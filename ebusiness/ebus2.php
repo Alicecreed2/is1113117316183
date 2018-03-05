@@ -80,9 +80,15 @@ h4 {
     left: 43%;
 }
 
-.lbl.pin{
+.lbl.card{
     position: absolute;
     top: 30%;
+    left: 43%;
+}
+
+.lbl.pin{
+    position: absolute;
+    top: 35%;
     left: 43%;
 }
 
@@ -108,7 +114,7 @@ h4 {
 .btn_validate{
     position: absolute;
     top: 80%;
-    left: 43%;
+    left: 47%;
     
     background-color: #d60b0b;
     border: none;
@@ -127,7 +133,7 @@ h4 {
 .home_btn{
     position: absolute;
     top: 90%;
-    left: 50%;
+    left: 45%;
     
     background-color: #0450f2;
     border: none;
@@ -216,6 +222,14 @@ html, body{
             <br/>
             <br/>
 
+           <label for="user_card" class="lbl.card">
+                Card number:
+                <input type="number" id="user_card" name="user_card" placeholder="0000 0000 0000 0000">
+            </label>
+        
+            <br/>
+            <br/>
+            
             <label for="user.pin" class="lbl.pin">
                 PIN
                 <input type="pin" id="user.pin" name="user.pin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">

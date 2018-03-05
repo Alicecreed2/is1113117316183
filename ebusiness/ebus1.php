@@ -51,7 +51,6 @@ padding:2%;
 
 
 /* Ebusiness1 */
-
 .ebuscontent{
     position: absolute;
     height: 100%;
@@ -196,7 +195,7 @@ padding:2%;
 
 html, body{
  background: url("https://images.unsplash.com/photo-1464600923926-4ff72f9505f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=865f5af0ad4d68038d54b1043886b087&auto=format&fit=crop&w=750&q=80") no-repeat center;
- background-size: 130%; 
+ background-size: 150%; 
  
 }
  
