@@ -195,7 +195,7 @@ padding:2%;
 
 html, body{
  background: url("https://images.unsplash.com/photo-1464600923926-4ff72f9505f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=865f5af0ad4d68038d54b1043886b087&auto=format&fit=crop&w=750&q=80") no-repeat center;
- background-size: 150%; 
+ background-size: 130%; 
  
 }
  
@@ -203,7 +203,9 @@ html, body{
 
 
         </style>
+           </head>
                <!-- nav bar -->
+               <body>
          <ul>
          
               <li><a href = "../homepage.html">Home</a></li>
@@ -215,12 +217,12 @@ html, body{
 
    
 
-    </head>
     
-    <body>
+    
+    
         
          <div class="logo">
-        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/507/592328507_cf010a1a-7141-4940-8f7d-ac4e04b6a971.png?cb=1519667357" height="150px" width="300px">
+        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/857/615855857_758f9e2d-6308-4119-9150-af6a61381d64.png?cb=1520341030" height="150px" width="300px">
         </div>
         
             

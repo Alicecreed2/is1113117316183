@@ -22,17 +22,13 @@ session_start()
  
  
 }
-
 ul{
  height:20%;
  width:100%; 
  background:#97d6f7;
  text-align: center;
  
-
 }
-
-
 ul li{
   list-style:none;
   display:inline;
@@ -44,14 +40,11 @@ ul li{
   
   
 }
-
-
 ul li a:hover{
 color:white;
 background:Blue;
 padding:2%;
 }
-
 h4 {
     font-size:40px;
     color:white;
@@ -66,32 +59,26 @@ h4 {
     font-size:40px;
     color:white;
 }
-
-
 .lbl.name{
     position: absolute;
     top: 20%;
     left: 43%;
 }
-
 .lbl.email{
     position: absolute;
     top: 25%;
     left: 43%;
 }
-
 .lbl.card{
     position: absolute;
     top: 30%;
     left: 43%;
 }
-
 .lbl.pin{
     position: absolute;
     top: 35%;
     left: 43%;
 }
-
 .btn_proceed{
     position: absolute;
     top: 85%;
@@ -106,11 +93,9 @@ h4 {
     border-radius: 3px;
     font-size: 90%;
 }
-
 .btn_proceed:hover{
     cursor: pointer;
 }
-
 .btn_validate{
     position: absolute;
     top: 80%;
@@ -125,11 +110,9 @@ h4 {
     border-radius: 3px;
     font-size: 90%;
 }
-
 .btn.validate{
     cursor: pointer;
 }
-
 .home_btn{
     position: absolute;
     top: 90%;
@@ -144,7 +127,6 @@ h4 {
     border-radius: 3px;
     font-size: 95%;
 }
-
 .home_btn:hover{
     cursor: pointer;
 }
@@ -165,18 +147,15 @@ html, body{
  
  
 }
-
 .writing {
     font-size:30px;
     color: black;
     
 }
-
-
-
-
         </style>
+        </head>
            <!-- nav bar -->
+           <body>
         <ul>
          
             <li><a href = "../homepage.html">Home</a></li>
@@ -188,11 +167,11 @@ html, body{
             
         </ul> 
         
-    </head>
     
-    <body>
+    
+    
          <div class="logo">
-        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/507/592328507_cf010a1a-7141-4940-8f7d-ac4e04b6a971.png?cb=1519667357" height="150px" width="300px">
+        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/857/615855857_758f9e2d-6308-4119-9150-af6a61381d64.png?cb=15203410307" height="150px" width="300px">
         </div>
         <center>
         <h4 class="ebus2.heading">Please enter payment details</h4>
@@ -235,7 +214,7 @@ html, body{
                 <input type="pin" id="user.pin" name="user.pin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
                  </div>
                 <br>
-                (Numbers only.)
+                
             </label>
         
             

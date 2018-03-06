@@ -104,7 +104,9 @@ h1 {
 
 
         </style>
+        </head>
            <!-- nav bar -->
+           <body>
          <ul>
          
             <li><a href = "../homepage.html">Home</a></li>
@@ -117,11 +119,11 @@ h1 {
         </ul> 
         
 
-    </head>
+    
     <body>
         
          <div class="logo">
-        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/507/592328507_cf010a1a-7141-4940-8f7d-ac4e04b6a971.png?cb=1519667357" height="150px" width="300px">
+        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/857/615855857_758f9e2d-6308-4119-9150-af6a61381d64.png?cb=1520341030" height="150px" width="300px">
         </div>
         
         <center>
